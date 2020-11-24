@@ -11,7 +11,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-//hello just to check commitdjvhjfd vjfbvjhf vjhf 
+
 public class EmeraldRecordingTest1 extends Browser_Lunch {
 
 	private boolean acceptNextAlert = true;
@@ -19,11 +19,7 @@ public class EmeraldRecordingTest1 extends Browser_Lunch {
 
 	@Test(priority = 1)
 	@Parameters("URL")
-	public void Emerald_Luncheds(String URL) {
-		driver.get(URL);
-		System.out.println("Login page Successfully Dispalyed with :" + URL);
-		System.out.println("Test Case-1 executed");
-	}
+	
 	public void Emerald_Lunched(String URL) {
 		driver.get(URL);
 		System.out.println("Login page Successfully Dispalyed with :" + URL);
